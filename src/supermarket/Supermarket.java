@@ -4,6 +4,8 @@
  */
 package supermarket;
 
+import supermarket.view.CustomerView;
+
 /**
  *
  * @author sujah
@@ -19,6 +21,7 @@ public class Supermarket {
         System.out.println("|           Welcome To SUPER MARKET SYSTEM           |");
         System.out.println("|                  BY: Sujahath MSM                  |");
         System.out.println("-----------------------------------------------------");
+        new CustomerView().setVisible(true);
     }
     
 }
